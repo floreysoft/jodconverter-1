@@ -41,6 +41,7 @@ import org.junit.rules.TemporaryFolder;
 
 import com.github.tomakehurst.wiremock.junit.WireMockRule;
 
+import org.jodconverter.office.OfficeUtils;
 import org.jodconverter.OnlineConverter;
 import org.jodconverter.document.DefaultDocumentFormatRegistry;
 

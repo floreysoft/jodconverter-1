@@ -234,4 +234,8 @@ class OfficeConnection implements LocalOfficeContext, XEventListener {
 
     return connected.get();
   }
+
+  public Object getDesktopService() {
+    return desktopService;
+  }
 }

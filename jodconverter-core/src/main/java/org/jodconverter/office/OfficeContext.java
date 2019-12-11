@@ -20,4 +20,8 @@
 package org.jodconverter.office;
 
 /** Base interface for all office context interfaces. */
-public interface OfficeContext {}
+public interface OfficeContext {
+
+    Object getDesktopService();
+
+}

@@ -54,4 +54,10 @@ class OnlineOfficeConnection implements OnlineOfficeContext {
   public RequestConfig getRequestConfig() {
     return requestConfig;
   }
+
+  @Override
+  public Object getDesktopService() {
+    //AAA
+    return null;
+  }
 }
